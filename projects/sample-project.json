@@ -1,0 +1,97 @@
+{
+  "name": "当前文件夹演示工程",
+  "canvas": {
+    "width": 1280,
+    "height": 820,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "id": "text-title",
+      "kind": "text",
+      "content": "Build Your Own HTML",
+      "style": {
+        "left": 82,
+        "top": 78,
+        "width": 420,
+        "height": 60,
+        "color": "#17355d",
+        "background": "#ffffff",
+        "borderColor": "#ffffff",
+        "borderRadius": 0,
+        "fontSize": 32,
+        "zIndex": 2
+      }
+    },
+    {
+      "id": "text-subtitle",
+      "kind": "text",
+      "content": "像画图工具一样拖动和设置页面元素",
+      "style": {
+        "left": 84,
+        "top": 152,
+        "width": 360,
+        "height": 42,
+        "color": "#4f6485",
+        "background": "#ffffff",
+        "borderColor": "#ffffff",
+        "borderRadius": 0,
+        "fontSize": 18,
+        "zIndex": 2
+      }
+    },
+    {
+      "id": "image-hero",
+      "kind": "image",
+      "content": "示例图片",
+      "imageSrc": "/placeholder.svg",
+      "style": {
+        "left": 780,
+        "top": 86,
+        "width": 320,
+        "height": 214,
+        "color": "#17355d",
+        "background": "#edf3fb",
+        "borderColor": "#c3d7f3",
+        "borderRadius": 24,
+        "fontSize": 16,
+        "zIndex": 1
+      }
+    },
+    {
+      "id": "button-cta",
+      "kind": "button",
+      "content": "开始编辑",
+      "style": {
+        "left": 86,
+        "top": 240,
+        "width": 170,
+        "height": 54,
+        "color": "#16365f",
+        "background": "#d8e7ff",
+        "borderColor": "#a4c0ec",
+        "borderRadius": 18,
+        "fontSize": 18,
+        "zIndex": 2
+      }
+    },
+    {
+      "id": "container-card",
+      "kind": "container",
+      "content": "属性区块",
+      "style": {
+        "left": 86,
+        "top": 350,
+        "width": 460,
+        "height": 200,
+        "color": "#17355d",
+        "background": "#f5f8fd",
+        "borderColor": "#d0def4",
+        "borderRadius": 24,
+        "fontSize": 20,
+        "zIndex": 1
+      }
+    }
+  ]
+}
+

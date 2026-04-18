@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/canvasviewport.tsx","./src/components/propertiespanel.tsx","./src/components/ribbonbar.tsx","./src/store/editorstore.ts","./src/types/editor.ts","./src/utils/defaultproject.ts","./src/utils/exporthtml.ts","./src/utils/insertcatalog.ts"],"version":"5.9.3"}

@@ -1,0 +1,109 @@
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: linear-gradient(180deg, #dbe5f2 0%, #eef4f9 100%);
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.element {
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element--text {
+  justify-content: flex-start;
+  border: 0;
+}
+
+.element--button {
+  cursor: pointer;
+}
+
+.element--image {
+  object-fit: cover;
+  padding: 0;
+}
+
+.element--text-title {
+  left: 6.4062%;
+  top: 9.5122%;
+  width: 32.8125%;
+  height: 7.3171%;
+  color: #17355d;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  font-size: 32px;
+  z-index: 2;
+}
+
+.element--text-subtitle {
+  left: 6.5625%;
+  top: 18.5366%;
+  width: 28.1250%;
+  height: 5.1220%;
+  color: #4f6485;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.element--image-hero {
+  left: 60.9375%;
+  top: 10.4878%;
+  width: 25.0000%;
+  height: 26.0976%;
+  color: #17355d;
+  background: #edf3fb;
+  border: 1px solid #c3d7f3;
+  border-radius: 24px;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.element--button-cta {
+  left: 6.7188%;
+  top: 29.2683%;
+  width: 13.2813%;
+  height: 6.5854%;
+  color: #16365f;
+  background: #d8e7ff;
+  border: 1px solid #a4c0ec;
+  border-radius: 18px;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.element--container-card {
+  left: 6.7188%;
+  top: 42.6829%;
+  width: 35.9375%;
+  height: 24.3902%;
+  color: #17355d;
+  background: #f5f8fd;
+  border: 1px solid #d0def4;
+  border-radius: 24px;
+  font-size: 20px;
+  z-index: 1;
+}
